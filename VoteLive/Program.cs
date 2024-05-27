@@ -38,7 +38,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.MapHub<SignalRVote>("/chatHub"); // later we need to change it 
+app.MapHub<SignalRVote>("/voteHub"); // later we need to change it 
 app.MapControllers();  // Map controller routes
 
 app.Run();

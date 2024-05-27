@@ -4,7 +4,7 @@ var numberOfVoteCR7 = 0;
 var numberOfVoteMessi = 0;
 var hasVoted = false; // Flag to check if the user has already voted
 
-var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+var connection = new signalR.HubConnectionBuilder().withUrl("/voteHub").build();
 
 //Disable the send button until connection is established.
 document.getElementById("sendButton").disabled = true;

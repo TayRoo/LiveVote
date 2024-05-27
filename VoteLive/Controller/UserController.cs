@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using VoteLive.Models;
 using VoteLive.Repository;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace VoteLive.Controller
 {
     [Route("api/[controller]")]

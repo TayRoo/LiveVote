@@ -26,7 +26,7 @@ namespace VoteLive.Services
         public async Task<List<Vote>> GetAllVotesAsync()
         {
             var voteList = await _httpClient.GetFromJsonAsync<List<Vote>>($"api/GetVotes");
-            return voteList;
+            return voteList!;
         }
         // add it in DB
         public async Task<Vote> AddVoteAsync(Vote vote)
