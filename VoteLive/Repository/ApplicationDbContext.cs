@@ -12,5 +12,6 @@ namespace VoteLive.Repository
 
         // Define your DbSets here. For example:
         public DbSet<Vote> Votes { get; set; }
+        public DbSet<User> Users => Set<User>();
     }
 }

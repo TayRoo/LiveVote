@@ -2013,33 +2013,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\balbegmi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/bandaralbegmi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\balbegmi\\source\\Workspaces\\E-470\\VoteLive\\VoteLive\\VoteLive.csproj",
+      "projectUniqueName": "/Users/bandaralbegmi/Documents/GitHub/LiveVote/VoteLive/VoteLive.csproj",
       "projectName": "VoteLive",
-      "projectPath": "C:\\Users\\balbegmi\\source\\Workspaces\\E-470\\VoteLive\\VoteLive\\VoteLive.csproj",
-      "packagesPath": "C:\\Users\\balbegmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\balbegmi\\source\\Workspaces\\E-470\\VoteLive\\VoteLive\\obj\\",
+      "projectPath": "/Users/bandaralbegmi/Documents/GitHub/LiveVote/VoteLive/VoteLive.csproj",
+      "packagesPath": "/Users/bandaralbegmi/.nuget/packages/",
+      "outputPath": "/Users/bandaralbegmi/Documents/GitHub/LiveVote/VoteLive/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\balbegmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/bandaralbegmi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "\\\\tfsproduction\\nuget": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.316/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2052,11 +2045,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2097,7 +2085,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
       }
     }
   }
